@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Logo from "./assets/images/logo.png"
+// import Cardcontainer from './Components/CardContainer';  
+import {Header} from './Components/Header';
+import {Footer} from './Components/Footer';
+import {Body} from './Components/Body';     //named export/import 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn JS
-        </a>
-        <h1>hello</h1>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Body />
+      <Footer/>
+    </>
   );
 }
 
