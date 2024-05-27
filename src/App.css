@@ -17,4 +17,8 @@
   transform: scale(0.90) ; /* Scale down to 95% of the original size */
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+/*  */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+
 }

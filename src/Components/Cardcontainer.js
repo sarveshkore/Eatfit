@@ -23,7 +23,7 @@ const Cardcontainer=()=>{
           starRating:"⭐4.9",
           deliveryTime:"30-35",
           cuisins:"South Indian",
-          location:"Vidyavihar" 
+          location:"Vidyavihar"  
         },
 
         {
@@ -155,7 +155,9 @@ const Cardcontainer=()=>{
           restaurantData.map((restaurant)=>{
             return(
               <Restaurantcard
-                {...restaurant}     //spread operator   
+                // {...restaurant}     
+                {...restaurant}     
+
               // imgUrl={restaurant?.imageUrl}
                 // title={restaurant?.title}
                 // starRating={restaurant?.starRating}
@@ -173,6 +175,7 @@ const Cardcontainer=()=>{
 
         {/* <Restaurantcard/> */}
       </div>
+      
     );
   }
   export default Cardcontainer;
