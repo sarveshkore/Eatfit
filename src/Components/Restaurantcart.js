@@ -23,7 +23,7 @@ const Restaurantcard=({cloudinaryImageId,name,avgRating,sla,cuisines,areaName})=
             <div>{sla?.deliveryTime}min</div>        {/* <div>40-45 min</div> */}
             {/* <div>{deliveryTime}min</div>        <div>40-45 min</div> */}
           </div>
-          <div className="text-secondary">{cuisines.join(", ")}</div>       {/* <div className="text-secondary">Chinese, Italian</div> */}
+          <div className="cuisine text-secondary">{cuisines.join(", ")}</div>       {/* <div className="text-secondary">Chinese, Italian</div> */}
           {/* <div className="text-secondary">{cuisins}</div>       <div className="text-secondary">Chinese, Italian</div> */}
           <div>{areaName}</div>       {/* <div>Ghatkopar W</div> */}
           {/* <div>{location}</div>       <div>Ghatkopar W</div> */}
